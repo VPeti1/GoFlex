@@ -1,4 +1,4 @@
-package flex
+package main
 
 // If the GO garbage collector would be good it would collect this entire code and trow it into /bin
 
