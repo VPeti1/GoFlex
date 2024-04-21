@@ -62,7 +62,7 @@ func main() {
 	exec.Command("sudo", "rm", "-rf", "/usr/flex/").Run()
 	exec.Command("sudo", "rm", "-rf", "/usr/bin/goflex").Run()
 	exec.Command("sudo", "mkdir", "/usr/flex").Run()
-	exec.Command("sudo", "git", "clone", "https://github.com/VPeti1/GoHash.git", "/usr/flex").Run()
+	exec.Command("sudo", "git", "clone", "https://github.com/VPeti1/GoFlex.git", "/usr/flex").Run()
 	exec.Command("sudo", "go", "build", "/usr/flex/main.go").Run()
 	exec.Command("sudo", "cp", "main", "/usr/bin/goflex").Run()
 	fmt.Printf("%s Installer Completed!\n", appName)
